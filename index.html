@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>TAIYABA FATMA — Creative Frontend Developer & Digital Experience Designer</title>
+  <meta name="description" content="Personal portfolio of Taiyaba Fatma — Creative Frontend Developer and Digital Experience Designer crafting editorial luxury, modern interfaces, and thoughtful web experiences.">
+  <meta name="keywords" content="Taiyaba Fatma, Frontend Developer, Web Designer, Portfolio, Creative Developer, UI/UX, JavaScript, HTML5, CSS3">
+  <meta name="author" content="Taiyaba Fatma">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="TAIYABA FATMA — Digital Experiences">
+  <meta property="og:description" content="Explore thoughtful, interactive, and visually engaging digital experiences by Taiyaba Fatma.">
+  <meta property="og:image" content="assets/images/taiyaba-fatma-portrait.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#151612">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=12">
+</head>
+<body>
+
+  <!-- ======================================================================
+       01. NAVIGATION BAR
+       ====================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Taiyaba Fatma Home">
+        <span class="brand-monogram">TF<span>.</span></span>
+        <span class="brand-subtitle">Digital Experiences</span>
+      </a>
+
+      <div class="nav-menu-wrapper">
+        <nav class="nav-links" aria-label="Primary Navigation">
+          <a href="#hero" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#resume" class="nav-link">Resume</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" class="social-circle-link" aria-label="GitHub Profile" title="GitHub: staiyaba3-bit" style="width: 38px; height: 38px;">
+          <svg viewBox="0 0 24 24" style="width: 17px; height: 17px;"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="social-circle-link" aria-label="LinkedIn Profile" title="LinkedIn: taiyaba-fatma" style="width: 38px; height: 38px;">
+          <svg viewBox="0 0 24 24" style="width: 17px; height: 17px;"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.79v8.37H6.46v-8.37M7.86 6.77a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24z"/></svg>
+        </a>
+        <a href="mailto:staiyaba3@gmail.com" class="social-circle-link" aria-label="Direct Email" title="Email: staiyaba3@gmail.com" style="width: 38px; height: 38px;">
+          <svg viewBox="0 0 24 24" style="width: 17px; height: 17px;"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-gold nav-cta-btn">Let's Connect</a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
+    <div>
+      <div style="margin-bottom: 2.5rem;">
+        <span class="brand-monogram" style="font-size: 2.2rem;">TF<span>.</span></span>
+        <p style="font-size: 0.8rem; color: var(--text-dark-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.35rem;">Taiyaba Fatma</p>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#hero" class="mobile-nav-link active">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#resume" class="mobile-nav-link">Resume</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+    </div>
+    <div class="mobile-drawer-footer">
+      <a href="assets/resume/Taiyaba_Fatma_Frontend_Developer_Resume.pdf" download="Taiyaba_Fatma_Frontend_Developer_Resume.pdf" class="btn btn-primary-dark" style="width: 100%; margin-bottom: 0.85rem;">Download Resume ↓</a>
+      <div style="display: flex; justify-content: center; gap: 1.15rem; margin-bottom: 0.6rem;">
+        <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); font-size: 0.85rem; font-weight: 500;">GitHub ↗</a>
+        <span style="color: var(--text-dark-muted);">•</span>
+        <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); font-size: 0.85rem; font-weight: 500;">LinkedIn ↗</a>
+      </div>
+      <p style="font-size: 0.78rem; color: var(--text-dark-muted); text-align: center;">
+        <a href="mailto:staiyaba3@gmail.com" style="color: var(--text-dark-muted);">staiyaba3@gmail.com</a> • <a href="tel:6389578317" style="color: var(--text-dark-muted);">+91 6389578317</a>
+      </p>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ======================================================================
+         02. HERO SECTION
+         ====================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-ambient-glow" aria-hidden="true"></div>
+      
+      <!-- Subtle Warm Brown Flora Particles (Sparse & Elegant) -->
+      <div class="hero-flora-particles" aria-hidden="true">
+        <span class="flora-petal petal-1"></span>
+        <span class="flora-petal petal-2"></span>
+        <span class="flora-petal petal-3"></span>
+        <span class="flora-petal petal-4"></span>
+        <span class="flora-petal petal-5"></span>
+        <span class="flora-petal petal-6"></span>
+        <span class="flora-sparkle sparkle-1"></span>
+        <span class="flora-sparkle sparkle-2"></span>
+        <span class="flora-sparkle sparkle-3"></span>
+        <span class="flora-sparkle sparkle-4"></span>
+      </div>
+      
+      <!-- Side Scroll Down Label -->
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span class="line"></span>
+        <span>Scroll Down —</span>
+      </div>
+
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Content (Left) -->
+          <div class="hero-content">
+            <span class="hero-intro-label">Hi, I'm</span>
+            
+            <h1 class="hero-heading editorial-title">
+              <span class="name-line">TAIYABA</span>
+              <span class="name-line">FATMA</span>
+            </h1>
+
+            <div class="hero-title-badge">Creative Frontend Developer</div>
+
+            <p class="hero-description">
+              I build thoughtful, interactive, and visually engaging digital experiences that bring ideas to life — from clean design to smooth interactions.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary-dark">Explore My Work ↗</a>
+              <a href="assets/resume/Taiyaba_Fatma_Frontend_Developer_Resume.pdf" download="Taiyaba_Fatma_Frontend_Developer_Resume.pdf" class="btn btn-secondary-dark">Download Resume ↓</a>
+            </div>
+
+            <!-- Quick Social & Direct Contact Links -->
+            <div class="hero-social-connect">
+              <span class="hero-social-label">Connect:</span>
+              <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="hero-social-pill" aria-label="LinkedIn Profile">
+                <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.79v8.37H6.46v-8.37M7.86 6.77a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" class="hero-social-pill" aria-label="GitHub Profile">
+                <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="mailto:staiyaba3@gmail.com" class="hero-social-pill" aria-label="Direct Email">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                <span>Email</span>
+              </a>
+            </div>
+
+            <div class="hero-skills-strip" aria-label="Core Competencies">
+              <span>HTML</span>
+              <span class="dot">•</span>
+              <span>CSS</span>
+              <span class="dot">•</span>
+              <span>JavaScript</span>
+              <span class="dot">•</span>
+              <span>Responsive Design</span>
+              <span class="dot">•</span>
+              <span>UI/UX</span>
+            </div>
+          </div>
+
+          <!-- Hero Portrait Art-Direction (Right) -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-portrait-stage">
+              
+
+              <!-- Handwritten Script Tag -->
+              <div class="hero-script-tag" aria-hidden="true">
+                <span class="text">Design.<br>Code.<br>Create. ♡</span>
+              </div>
+
+              <!-- Main Arch Portrait Frame using Supplied Portrait -->
+              <div class="hero-portrait-frame">
+                <img 
+                  src="assets/images/taiyaba-fatma-portrait.jpg?v=2" 
+                  alt="Portrait of Taiyaba Fatma, Creative Frontend Developer" 
+                  class="hero-portrait-img"
+                  width="610" 
+                  height="682"
+                >
+              </div>
+
+              <!-- Floating Studio Detail Pill -->
+              <div class="hero-floating-card">
+                <div class="card-header">
+                  <span>A little about me</span>
+                  <span>→</span>
+                </div>
+                <div class="card-title">Frontend Developer</div>
+                <div class="card-desc">Building Beautiful Digital Experiences</div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         03. SECTION 02 — ABOUT ME ("More Than Just Code")
+         ====================================================================== -->
+    <section class="section-about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          
+          <!-- Editorial Text Block (Left) -->
+          <div class="about-text-content">
+            <span class="section-tag light">ABOUT ME</span>
+            
+            <h2 class="about-heading editorial-title">
+              More Than<br>Just Code
+            </h2>
+
+            <p class="about-bio-text">
+              I'm Taiyaba Fatma, a frontend developer passionate about creating beautiful, functional, and user-friendly websites.
+            </p>
+
+            <p class="about-bio-text">
+              I enjoy transforming ideas into thoughtful digital experiences — from clean design to smooth interactions. Coding, designing, and learning new things is not just my work, it's my happy place.
+            </p>
+
+            <div class="about-signature-block">
+              <span class="about-signature-text">Always learning. ♡</span>
+            </div>
+
+            <!-- 4 Pillar Strength Badges -->
+            <div class="about-pillars-grid">
+              <div class="pillar-item">
+                <div class="pillar-icon">💡</div>
+                <span class="pillar-text">Creative Thinker</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-icon">🧩</div>
+                <span class="pillar-text">Problem Solver</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-icon">⚡</div>
+                <span class="pillar-text">Fast Learner</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-icon">🤝</div>
+                <span class="pillar-text">Team Player</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
+              <a href="#projects" class="btn btn-secondary-light">More About My Work →</a>
+              <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="btn btn-primary-light" style="font-size: 0.85rem; padding: 0.65rem 1.25rem;">Connect on LinkedIn ↗</a>
+            </div>
+          </div>
+
+          <!-- Editorial Layered Collage Visual (Right) -->
+          <div class="about-visual-composition">
+            <div class="about-photo-wrapper">
+              
+              <!-- Main Mat/Paper Frame with Portrait Crop -->
+              <div class="about-mat-frame">
+                <div class="washi-tape" aria-hidden="true"></div>
+                <div class="about-portrait-crop">
+                  <img src="assets/images/taiyaba-fatma-portrait.jpg" alt="Taiyaba Fatma portrait framing">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         04. SECTION 03 — SELECTED WORK
+         ====================================================================== -->
+    <section class="section-projects" id="projects">
+      <div class="container">
+        
+        <!-- Header Flex -->
+        <div class="projects-header-flex">
+          <div>
+            <span class="section-tag dark">SELECTED WORK</span>
+            <h2 class="projects-heading editorial-title">Selected Projects</h2>
+            <p class="projects-subtitle">
+              A collection of digital experiences built with creativity, purpose, and attention to detail.
+            </p>
+          </div>
+          <div style="text-align: right;">
+            <span class="script-accent">Real Projects • Real Skills ♡</span>
+          </div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="projects-filters" role="tablist" aria-label="Project Categories">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="dining">Cafe & Bakery</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+          <button class="filter-btn" data-filter="beauty">Beauty & Studio</button>
+          <button class="filter-btn" data-filter="fitness">Fitness & Gym</button>
+          <button class="filter-btn" data-filter="creative">My 3D Portfolio</button>
+          <button class="filter-btn" data-filter="travel">Luxury Travel</button>
+        </div>
+
+        <!-- Projects Grid (8 Cards) -->
+        <div class="projects-grid">
+          
+          <!-- PROJECT 01: Cafe Tesu -->
+          <article class="project-card" data-category="dining">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">Cafe & Dining</span>
+              <img 
+                src="assets/images/project-cafe-interior.jpg" 
+                alt="Cafe Tesu Website Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Cafe Tesu</h3>
+              <p class="project-card-desc">
+                An artisanal cafe & brunch experience featuring interactive gourmet menus, ambiance lookbook, and table reservation UI.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card-actions">
+                <a href="https://cafe-website-five-kappa.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-demo">Live Demo ↗</a>
+                <span class="project-link-case" data-case-study="cafe">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: Caffeine Cove -->
+          <article class="project-card" data-category="dining">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">Specialty Cafe</span>
+              <img 
+                src="assets/images/project-caffeine-cove.jpg" 
+                alt="Caffeine Cove Website Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Caffeine Cove</h3>
+              <p class="project-card-desc">
+                A warm neighborhood specialty coffee house featuring single-origin espresso, velvet lattes, and cozy artisanal pastries.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card-actions">
+                <a href="https://caffeine-cove-flame.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link-demo">Live Demo ↗</a>
+                <span class="project-link-case" data-case-study="caffeine">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: My Bakery Store -->
+          <article class="project-card" data-category="ecommerce dining">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">Wholesale Bakery</span>
+              <img 
+                src="assets/images/project-bakery-preview.jpg" 
+                alt="My Bakery Store Website Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">My Bakery Store</h3>
+              <p class="project-card-desc">
+                Artisan wholesale bakery platform with live product filtering, interactive cart drawer, and direct WhatsApp order placement.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-card-actions">
+                <a href="https://my-bakery-tau.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-demo">Live Demo ↗</a>
+                <span class="project-link-case" data-case-study="bakery">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 04: Glam & Grace Makeup Studio -->
+          <article class="project-card" data-category="beauty">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">Beauty & Studio</span>
+              <img 
+                src="assets/images/project-makeup-hero.jpg" 
+                alt="Makeup Studio Website Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Makeup Studio</h3>
+              <p class="project-card-desc">
+                A bespoke bridal artistry and beauty studio portfolio presenting real brides, transformation galleries, and service consultations.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card-actions">
+                <a href="https://makeup-studio-nu.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-demo">Live Demo ↗</a>
+                <span class="project-link-case" data-case-study="makeup">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 05: Apex Fitness Club -->
+          <article class="project-card" data-category="fitness">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">Fitness & Gym</span>
+              <img 
+                src="assets/images/project-gym-preview.jpg" 
+                alt="Apex Fitness Club Website Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Apex Fitness Club</h3>
+              <p class="project-card-desc">
+                A modern, high-energy gym web application showcasing dynamic training programs, trainer rosters, and membership enrollment.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Vite</span>
+              </div>
+              <div class="project-card-actions">
+                <a href="https://apex-fitness-club-beryl.vercel.app/#home" target="_blank" rel="noopener noreferrer" class="project-link-demo">Live Demo ↗</a>
+                <span class="project-link-case" data-case-study="apex">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 06: My 3D Portfolio -->
+          <article class="project-card" data-category="creative">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">3D Portfolio</span>
+              <img 
+                src="assets/images/project-dev-portfolio.jpg" 
+                alt="My 3D Portfolio Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">My 3D Portfolio</h3>
+              <p class="project-card-desc">
+                My personal interactive 3D portfolio featuring custom neon aesthetics, floating card animations, glassmorphism panels, and responsive showcase.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card-actions">
+                <a href="https://portfolio-psi-orcin-biavn9197z.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-demo">Live Demo ↗</a>
+                <span class="project-link-case" data-case-study="portfolio">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 07: Jewellery E-Commerce (Work in Progress) -->
+          <article class="project-card" data-category="ecommerce">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">E-Commerce</span>
+              <span class="project-wip-badge">Work in Progress</span>
+              <img 
+                src="assets/images/project-jewellery-hero.png" 
+                alt="Jewellery E-Commerce Project Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Jewellery E-Commerce</h3>
+              <p class="project-card-desc">
+                A luxurious jewellery shopping platform with an editorial showcase, product filters, and smooth shopping experience.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card-actions">
+                <span class="btn-wip-status">Work in Progress ⏳</span>
+                <span class="project-link-case" data-case-study="jewellery">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 08: AURELIA — Luxury Travel (Work in Progress) -->
+          <article class="project-card" data-category="travel">
+            <div class="project-thumb-box">
+              <span class="project-category-badge">Luxury Travel</span>
+              <span class="project-wip-badge">Work in Progress</span>
+              <img 
+                src="assets/images/project-aurelia.jpg" 
+                alt="AURELIA Luxury Travel Website Preview" 
+                class="project-thumb-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">AURELIA</h3>
+              <p class="project-card-desc">
+                A cinematic travel experience showcasing pristine alpine retreats, bespoke itineraries, and immersive destination photography.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card-actions">
+                <span class="btn-wip-status">Work in Progress ⏳</span>
+                <span class="project-link-case" data-case-study="aurelia">Case Study ℹ</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION — SKILLS & TECHNOLOGIES (with Full Floral Background)
+         ====================================================================== -->
+    <section class="section-skills-showcase" id="skills">
+      <div class="skills-ambient-glow" aria-hidden="true"></div>
+      <div class="container skills-container">
+        
+        <div class="skills-header-wrapper">
+          <div class="skills-header-left">
+            <span class="section-tag dark">MY SKILLS & TECHNOLOGIES</span>
+            <h2 class="skills-heading editorial-title">Tools I Work With</h2>
+            <p class="skills-subheading">Practical technologies and design foundations I use to bring ideas to life.</p>
+          </div>
+          <div class="skills-header-right">
+            <span class="skills-badge-script">Artistry & Logic • Elegance in Code ♡</span>
+          </div>
+        </div>
+
+        <div class="skills-categories-grid">
+          
+          <!-- Frontend Group -->
+          <div class="skill-category-card">
+            <div class="skill-cat-title">Frontend Foundations</div>
+            <div class="skill-badges-flow">
+              <div class="skill-pill">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 5l2 14 8 3 8-3 2-14-10-3zm0 2.1l7.8 2.3-1.6 11.2-6.2 2.3-6.2-2.3L4.2 6.4 12 4.1z"/></svg>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-pill">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 5l2 14 8 3 8-3 2-14-10-3zm5.7 6.4H8.8l.2 2.1h6.5l-.5 4.6-3 1-3-1-.2-2.1H6.7l.4 3.7 4.9 1.6 4.9-1.6.8-8.3z"/></svg>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-pill">
+                <svg viewBox="0 0 24 24"><path d="M3 3h18v18H3V3zm13.7 13.5c-.8 1.4-2.1 2.2-3.8 2.2-2.6 0-4.2-1.8-4.2-4.5 0-2.8 1.8-4.6 4.3-4.6 1.7 0 2.9.8 3.6 2.1l-1.9 1.1c-.4-.7-1-1.1-1.8-1.1-1.3 0-2.1.9-2.1 2.4 0 1.5.8 2.4 2.1 2.4.9 0 1.5-.4 1.9-1.1l1.9 1.1z"/></svg>
+                <span>JavaScript (ES6+)</span>
+              </div>
+              <div class="skill-pill">
+                <span>React (Hands-on)</span>
+              </div>
+              <div class="skill-pill">
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Deployment -->
+          <div class="skill-category-card">
+            <div class="skill-cat-title">Development & Deployment</div>
+            <div class="skill-badges-flow">
+              <div class="skill-pill">
+                <span>VS Code</span>
+              </div>
+              <div class="skill-pill">
+                <span>Git</span>
+              </div>
+              <div class="skill-pill">
+                <span>GitHub</span>
+              </div>
+              <div class="skill-pill">
+                <span>Vercel</span>
+              </div>
+              <div class="skill-pill">
+                <span>Netlify</span>
+              </div>
+              <div class="skill-pill">
+                <span>GitHub Pages</span>
+              </div>
+              <div class="skill-pill">
+                <span>Chrome DevTools</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design & Process -->
+          <div class="skill-category-card">
+            <div class="skill-cat-title">Design & UX Fundamentals</div>
+            <div class="skill-badges-flow">
+              <div class="skill-pill">
+                <span>Responsive Web Design</span>
+              </div>
+              <div class="skill-pill">
+                <span>UI Design Principles</span>
+              </div>
+              <div class="skill-pill">
+                <span>Visual Presentation</span>
+              </div>
+              <div class="skill-pill">
+                <span>Problem Solving</span>
+              </div>
+              <div class="skill-pill">
+                <span>Figma Basics</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         07. SECTION 07 & 08 — RESUME + LET'S WORK TOGETHER
+         ====================================================================== -->
+    <section class="section-resume-contact" id="resume">
+      <div class="container">
+        <div class="resume-contact-grid">
+          
+          <!-- Column 1: RESUME -->
+          <div class="resume-col">
+            <span class="section-tag light">RESUME</span>
+            <h2 class="resume-heading editorial-title">My Resume</h2>
+            <p class="resume-subtext">Here's a quick look at my experience, skills and education.</p>
+
+            <div class="resume-action-btns">
+              <button class="btn btn-primary-light trigger-view-resume">View Resume →</button>
+              <a href="assets/resume/Taiyaba_Fatma_Frontend_Developer_Resume.pdf" download="Taiyaba_Fatma_Frontend_Developer_Resume.pdf" class="btn btn-secondary-light">Download PDF ↓</a>
+            </div>
+
+            <!-- Stylized Resume Document Card -->
+            <div class="resume-preview-card">
+              <div class="resume-doc-header">
+                <div class="resume-avatar-mini">
+                  <img src="assets/images/taiyaba-fatma-portrait.jpg" alt="Taiyaba Fatma Avatar">
+                </div>
+                <div class="resume-header-info">
+                  <h4>TAIYABA FATMA</h4>
+                  <p>Frontend Developer | Web Designer</p>
+                  <div class="resume-contact-bar">
+                    <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="resume-contact-pill" title="LinkedIn: taiyaba-fatma">
+                      <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.79v8.37H6.46v-8.37M7.86 6.77a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24z"/></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" class="resume-contact-pill" title="GitHub: staiyaba3-bit">
+                      <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+                      <span>GitHub</span>
+                    </a>
+                    <a href="mailto:staiyaba3@gmail.com" class="resume-contact-pill" title="Email: staiyaba3@gmail.com">
+                      <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                      <span>Gmail</span>
+                    </a>
+                    <a href="tel:6389578317" class="resume-contact-pill" title="Phone: +91 6389578317">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                      <span>Phone</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="resume-doc-body">
+                <div class="resume-snippet-row">
+                  <span class="resume-snippet-label">Summary</span>
+                  <p class="resume-snippet-val">
+                    Entry-level Frontend Developer & Web Designer creating polished UI layouts and brand-focused experiences for café, beauty, bakery, fitness, and portfolio concepts.
+                  </p>
+                </div>
+
+                <div class="resume-snippet-row">
+                  <span class="resume-snippet-label">Technical Skills</span>
+                  <p class="resume-snippet-val">
+                    HTML5, CSS3, JavaScript fundamentals, Responsive Web Design, UI Implementation, VS Code, GitHub, Vercel deployment.
+                  </p>
+                </div>
+
+                <div class="resume-snippet-row">
+                  <span class="resume-snippet-label">Selected Live Projects</span>
+                  <p class="resume-snippet-val">
+                    Caffeine Cove, Glam & Grace, Café Tesu, My Bakery Store, Apex Fitness Club, My 3D Portfolio.
+                  </p>
+                </div>
+
+                <div class="resume-snippet-row">
+                  <span class="resume-snippet-label">Education</span>
+                  <p class="resume-snippet-val">
+                    Bachelor of Science (B.Sc.) — Deen Dayal Upadhyaya Gorakhpur University (2025)
+                  </p>
+                </div>
+
+                <div class="resume-snippet-row" style="margin-top: 0.5rem;">
+                  <button class="btn-text-arrow trigger-view-resume" style="color: var(--color-olive);">
+                    Read Full Verified Resume Details →
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: CONTACT (LET'S WORK TOGETHER) -->
+          <div class="contact-col" id="contact">
+            <span class="section-tag light">LET'S WORK TOGETHER</span>
+            <h2 class="contact-heading editorial-title">
+              Have an Idea?<br>Let's Build It.
+            </h2>
+            <p class="contact-subtext">
+              Whether you're a brand, a business, or someone with a creative idea — I'd love to hear from you.
+            </p>
+
+            <!-- Direct Channels -->
+            <div class="contact-channels-list">
+              
+              <a href="mailto:staiyaba3@gmail.com" class="contact-channel-item">
+                <div class="contact-channel-icon">✉</div>
+                <div class="contact-channel-detail">
+                  <span class="contact-channel-label">Email</span>
+                  <span class="contact-channel-val">staiyaba3@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="contact-channel-item">
+                <div class="contact-channel-icon">in</div>
+                <div class="contact-channel-detail">
+                  <span class="contact-channel-label">LinkedIn</span>
+                  <span class="contact-channel-val">linkedin.com/in/taiyaba-fatma</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" class="contact-channel-item">
+                <div class="contact-channel-icon">⌥</div>
+                <div class="contact-channel-detail">
+                  <span class="contact-channel-label">GitHub</span>
+                  <span class="contact-channel-val">github.com/staiyaba3-bit</span>
+                </div>
+              </a>
+
+              <a href="tel:6389578317" class="contact-channel-item">
+                <div class="contact-channel-icon">📞</div>
+                <div class="contact-channel-detail">
+                  <span class="contact-channel-label">Phone</span>
+                  <span class="contact-channel-val">+91 6389578317</span>
+                </div>
+              </a>
+
+            </div>
+
+            <!-- Form -->
+            <div class="contact-form-box">
+              <form id="contactForm" novalidate>
+                <div class="form-grid">
+                  
+                  <div class="form-grid-2">
+                    <div class="form-group">
+                      <label for="senderName" class="form-label">Your Name *</label>
+                      <input type="text" id="senderName" class="form-input" placeholder="e.g. Elena Rostova" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="senderEmail" class="form-label">Your Email *</label>
+                      <input type="email" id="senderEmail" class="form-input" placeholder="elena@example.com" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="senderSubject" class="form-label">Subject</label>
+                    <input type="text" id="senderSubject" class="form-input" placeholder="Project collaboration / Website redesign">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="senderMessage" class="form-label">Message *</label>
+                    <textarea id="senderMessage" class="form-textarea" placeholder="Tell me about your project, timeline, and vision..." required></textarea>
+                  </div>
+
+                  <div class="form-footer-flex">
+                    <button type="submit" class="btn btn-primary-light">Send Message →</button>
+                    <span class="contact-script-note">Let's create something amazing ♡</span>
+                  </div>
+
+                  <div id="formStatus" class="form-status-alert" role="alert"></div>
+
+                </div>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       08. FOOTER
+       ====================================================================== -->
+  <footer class="footer-editorial">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Left: Branding & Message -->
+        <div>
+          <div class="footer-brand-monogram">TF<span>.</span></div>
+          <h3 class="footer-heading editorial-title">Thanks for visiting!</h3>
+          <p class="footer-lead">
+            Feel free to connect with me on my socials or drop me a message. Always open to new opportunities and inspiring collaborations.
+          </p>
+
+          <div class="footer-social-strip">
+            <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" class="social-circle-link" aria-label="GitHub Profile" title="GitHub: github.com/staiyaba3-bit">
+              <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="social-circle-link" aria-label="LinkedIn Profile" title="LinkedIn: linkedin.com/in/taiyaba-fatma">
+              <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.79v8.37H6.46v-8.37M7.86 6.77a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24z"/></svg>
+            </a>
+            <a href="mailto:staiyaba3@gmail.com" class="social-circle-link" aria-label="Direct Email" title="Email: staiyaba3@gmail.com">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+            <a href="tel:6389578317" class="social-circle-link" aria-label="Direct Phone Call" title="Phone: +91 6389578317">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 17px; height: 17px; color: var(--color-gold-light);"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </a>
+          </div>
+
+          <!-- Rich Interactive Footer Connect Cards Grid -->
+          <div class="footer-contact-cards">
+            <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="footer-contact-card">
+              <div class="footer-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.79v8.37H6.46v-8.37M7.86 6.77a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24z"/></svg>
+              </div>
+              <div class="footer-card-text">
+                <span class="footer-card-label">LinkedIn</span>
+                <span class="footer-card-value">taiyaba-fatma ↗</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" class="footer-contact-card">
+              <div class="footer-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+              </div>
+              <div class="footer-card-text">
+                <span class="footer-card-label">GitHub</span>
+                <span class="footer-card-value">staiyaba3-bit ↗</span>
+              </div>
+            </a>
+
+            <a href="mailto:staiyaba3@gmail.com" class="footer-contact-card">
+              <div class="footer-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </div>
+              <div class="footer-card-text">
+                <span class="footer-card-label">Email</span>
+                <span class="footer-card-value">staiyaba3@gmail.com ✉</span>
+              </div>
+            </a>
+
+            <a href="tel:6389578317" class="footer-contact-card">
+              <div class="footer-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 17px; height: 17px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="footer-card-text">
+                <span class="footer-card-label">Phone</span>
+                <span class="footer-card-value">+91 6389578317 📞</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="footer-quote-box">
+            <p class="footer-quote-text">
+              "Good design builds trust. Great code builds possibilities."
+            </p>
+            <p class="footer-quote-author">— Taiyaba</p>
+          </div>
+        </div>
+
+        <!-- Right: Atmospheric Studio Desk -->
+        <div class="footer-image-stage">
+          <img 
+            src="assets/images/footer-studio-desk.jpg" 
+            alt="Moody developer workspace desk at night with laptop, warm lamp light, and coffee" 
+            class="footer-studio-img"
+            loading="lazy"
+          >
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          © 2026 Taiyaba Fatma — All Rights Reserved. Crafted with care & purpose.
+        </div>
+        <div class="footer-nav-links">
+          <a href="#hero" class="footer-nav-link">Home</a>
+          <a href="#about" class="footer-nav-link">About</a>
+          <a href="#projects" class="footer-nav-link">Projects</a>
+          <a href="#skills" class="footer-nav-link">Skills</a>
+          <a href="#resume" class="footer-nav-link">Resume</a>
+          <a href="#contact" class="footer-nav-link">Contact</a>
+        </div>
+        <div>
+          <a href="#hero" class="back-to-top-btn" id="backToTopBtn">
+            Scroll to top <span>↑</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       09. CASE STUDY MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="caseStudyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Case Study Modal">✕</button>
+      
+      <div class="modal-body">
+        <h2 id="modalTitle" class="editorial-title" style="font-size: 2.2rem; margin-bottom: 1.5rem; color: var(--text-dark-primary);"></h2>
+        
+        <img id="modalImg" src="" alt="" class="modal-project-img">
+
+        <div class="modal-meta-row">
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Role</span>
+            <span id="modalRole" class="modal-meta-val"></span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Tech Stack</span>
+            <span id="modalTech" class="modal-meta-val"></span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Deliverables</span>
+            <span id="modalDeliverables" class="modal-meta-val"></span>
+          </div>
+        </div>
+
+        <div class="modal-text-block">
+          <h3>Project Objective & Approach</h3>
+          <p id="modalOverview"></p>
+        </div>
+
+        <div class="modal-text-block">
+          <h3>Key Features & Implementation Details</h3>
+          <ul id="modalFeatures"></ul>
+        </div>
+
+        <div class="modal-footer-actions">
+          <a id="modalLiveBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+            Visit Project ↗
+          </a>
+          <button class="btn btn-secondary-dark" onclick="document.getElementById('modalCloseBtn').click();">
+            Close Case Study
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       10. RESUME PREVIEW MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle">
+    <div class="modal-content-container">
+      <button class="modal-close-btn" id="resumeModalCloseBtn" aria-label="Close Resume Modal">✕</button>
+      
+      <div class="modal-body">
+        <h2 id="resumeModalTitle" class="editorial-title" style="font-size: 2.2rem; margin-bottom: 0.35rem; color: var(--text-dark-primary);">
+          TAIYABA FATMA
+        </h2>
+        <p style="color: var(--color-gold-light); font-weight: 600; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.75rem;">
+          Frontend Developer | Web Designer
+        </p>
+        <div class="resume-modal-contact-row">
+          <a href="tel:6389578317" class="resume-modal-contact-link" title="Phone">
+            📞 <span>+91 6389578317</span>
+          </a>
+          <span class="sep">•</span>
+          <a href="mailto:staiyaba3@gmail.com" class="resume-modal-contact-link" title="Email">
+            ✉ <span>staiyaba3@gmail.com</span>
+          </a>
+          <span class="sep">•</span>
+          <a href="https://github.com/staiyaba3-bit" target="_blank" rel="noopener noreferrer" class="resume-modal-contact-link" title="GitHub">
+            ⌥ <span>github.com/staiyaba3-bit ↗</span>
+          </a>
+          <span class="sep">•</span>
+          <a href="https://www.linkedin.com/in/taiyaba-fatma" target="_blank" rel="noopener noreferrer" class="resume-modal-contact-link" title="LinkedIn">
+            in <span>linkedin.com/in/taiyaba-fatma ↗</span>
+          </a>
+        </div>
+
+        <div style="background: rgba(245, 240, 231, 0.04); border: 1px solid rgba(245, 240, 231, 0.1); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+          <h4 style="color: var(--color-gold); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.6rem;">Professional Summary</h4>
+          <p style="color: var(--text-dark-secondary); line-height: 1.7; font-size: 0.95rem;">
+            Entry-level Frontend Developer and web designer with hands-on experience creating and deploying responsive website projects. Skilled in building polished UI layouts and presenting brand-focused experiences for café, beauty, bakery, fitness, and personal portfolio concepts. Currently progressing through full-stack development studies, with a goal of combining freelance web work with continued learning.
+          </p>
+        </div>
+
+        <div class="modal-meta-row">
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Frontend Skills</span>
+            <span class="modal-meta-val">HTML5, CSS3, JavaScript fundamentals, Responsive Web Design, UI Implementation</span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Tools & Workflow</span>
+            <span class="modal-meta-val">VS Code, GitHub, Vercel Deployment, Browser Testing & Iteration</span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Design & Layouts</span>
+            <span class="modal-meta-val">Visual Hierarchy, Typography, Colour Pairing, Landing Pages, Section Layouts</span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Education</span>
+            <span class="modal-meta-val">B.Sc. — Deen Dayal Upadhyaya Gorakhpur University (Graduated 2025)</span>
+          </div>
+        </div>
+
+        <div class="modal-text-block">
+          <h3>Selected Live Projects</h3>
+          <ul style="margin-top: 0.75rem;">
+            <li><strong>Caffeine Cove — Café Website:</strong> Premium café website concept with brand-led visual design, responsive page layout, and café-focused content. <a href="https://caffeine-cove-flame.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); text-decoration: underline;">Live Demo ↗</a></li>
+            <li><strong>Glam and Grace — Makeup Studio Website:</strong> Beauty-studio website showcasing makeup services and portfolio-style visual presentation. <a href="https://makeup-studio-nu.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); text-decoration: underline;">Live Demo ↗</a></li>
+            <li><strong>Café Tesu — Café Website:</strong> European-inspired café concept with signature dishes, menu categories, gallery, and visit information. <a href="https://cafe-website-five-kappa.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); text-decoration: underline;">Live Demo ↗</a></li>
+            <li><strong>Cake N Bake / My Bakery Store:</strong> Bakery website concept designed to present cakes and baked treats with an occasion-focused brand experience. <a href="https://my-bakery-tau.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); text-decoration: underline;">Live Demo ↗</a></li>
+            <li><strong>Apex Fitness Club — Fitness Website:</strong> Fitness-club website concept with a dedicated home section and fitness-focused presentation. <a href="https://apex-fitness-club-beryl.vercel.app/#home" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); text-decoration: underline;">Live Demo ↗</a></li>
+            <li><strong>My 3D Developer Portfolio:</strong> Personal portfolio website for presenting projects, skills, and professional profile. <a href="https://portfolio-psi-orcin-biavn9197z.vercel.app/" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-light); text-decoration: underline;">Live Demo ↗</a></li>
+          </ul>
+        </div>
+
+        <div style="background: rgba(184, 154, 105, 0.06); border: 1px dashed rgba(184, 154, 105, 0.25); border-radius: var(--radius-md); padding: 1rem 1.25rem; margin-top: 1.5rem; margin-bottom: 1.5rem;">
+          <h4 style="color: var(--color-gold); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.35rem;">Professional Development & Availability</h4>
+          <p style="color: var(--text-dark-secondary); font-size: 0.9rem; line-height: 1.6;">
+            Currently studying full-stack web development; frontend learning completed to date. Actively open to entry-level frontend developer roles, junior web developer opportunities, and freelance website projects.
+          </p>
+        </div>
+
+        <div class="modal-footer-actions">
+          <a href="assets/resume/Taiyaba_Fatma_Frontend_Developer_Resume.pdf" download="Taiyaba_Fatma_Frontend_Developer_Resume.pdf" class="btn btn-gold">
+            Download Official PDF Resume ↓
+          </a>
+          <a href="assets/resume/Taiyaba_Fatma_Frontend_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary-dark">
+            Open PDF in Browser ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
